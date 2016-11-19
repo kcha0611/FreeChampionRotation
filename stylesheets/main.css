@@ -1,0 +1,27 @@
+.champ-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.champ-img {
+  filter: sepia(70%);
+}
+
+.champ-img:hover {
+  filter: sepia(0%);
+  cursor: pointer;
+}
+
+.champ-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b59758;
+  font-size: 30px;
+}
+
+body {
+  background-color: #131315;
+  font-family: 'BeaufortW01-Bold';
+}
